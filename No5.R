@@ -1,4 +1,5 @@
 lambda <- 3
+dexp(lambda)
 #5b
 set.seed(1)
 hist(rexp(10,lambda))
