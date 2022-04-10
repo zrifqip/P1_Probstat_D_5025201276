@@ -120,7 +120,7 @@ dan didapatkan histogram2 sebgai berikut
 ### 5c
 didapatkan rataan dan varian sebagai berikut
 
-![varmean5](https://cdn.discordapp.com/attachments/784241314614345749/962725855744913418/unknown.png
+![varmean5](https://cdn.discordapp.com/attachments/784241314614345749/962725855744913418/unknown.png)
 
 ## No 6
 ### 6a
