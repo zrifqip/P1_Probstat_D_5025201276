@@ -94,3 +94,61 @@ dan didapatkan hasil sebagai berikut
 nilai rataan dan varian didapatkan sebagai dari rchisq didapatkan dari
 
 ![varmean4](https://cdn.discordapp.com/attachments/784241314614345749/962722400242372688/unknown.png)
+## No 5
+### 5a
+fungsi probabilitas dan hasil dari distribusi exponensial adalah sebgai berikut
+
+![func](https://cdn.discordapp.com/attachments/784241314614345749/962723626665267260/unknown.png)
+### 5b 
+Histogramnya dicari untuk bilangan random berjumlah 10 100 1000 dan 10000
+```r
+set.seed(1)
+hist(rexp(10,lambda))
+n<- (rexp(100,lambda))
+n
+hist(n)
+
+hist(rexp(1000,lambda))
+hist(rexp(10000,lambda))
+```
+dan didapatkan histogram2 sebgai berikut
+![10](https://cdn.discordapp.com/attachments/784241314614345749/962724650926886922/unknown.png)
+![100](https://cdn.discordapp.com/attachments/784241314614345749/962725175684649006/unknown.png)
+![1000](https://cdn.discordapp.com/attachments/784241314614345749/962725231317905469/unknown.png)
+![10000](https://cdn.discordapp.com/attachments/784241314614345749/962725280865214534/unknown.png)
+
+### 5c
+didapatkan rataan dan varian sebagai berikut
+
+![varmean5](https://cdn.discordapp.com/attachments/784241314614345749/962725855744913418/unknown.png
+
+## No 6
+### 6a
+Untuk mencari nilai zscore diperlukan adalah mean dari distribusi normal lalu menggunakan floor dan ceiling untuk mendapatkan nilai x lalu dikurangkan dengan mean dan dibagi rata2, lalu kedua ceiling dan floor ininn akan ditambahkan. implementasinya adalah sebagai berikut
+```r
+norm <-rnorm(100,50,8)
+mean <- mean(norm)
+mean
+x1 <- floor(mean)
+x1
+x2 <- ceiling(mean)
+
+z1 <- (x1 - 50)/8
+z1
+z2 <- (x2 - 50)/8
+z2
+Zscore <- z1 + z2
+```
+![hasil](https://cdn.discordapp.com/attachments/784241314614345749/962727416629956678/unknown.png)
+
+dan ditemukan plot sebagai berikut 
+
+![plot](https://cdn.discordapp.com/attachments/784241314614345749/962727631764222022/unknown.png)
+### 6b
+selanjutnya untuk mencari histogram untuk distribusi normal hasilnya adalah sebagai berikut
+![hist6](https://cdn.discordapp.com/attachments/784241314614345749/962727941513576509/unknown.png)
+
+### 6c
+hasil dari varian distribusi normal adalah sebagai berikut 
+
+![hasilvar](https://cdn.discordapp.com/attachments/784241314614345749/962728158690443284/unknown.png)
